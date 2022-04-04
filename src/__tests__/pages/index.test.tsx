@@ -2,7 +2,6 @@ import { render } from '@testing-library/react';
 
 import HomePage from '@/pages';
 
-/** Mock Seo's useRouter */
 jest.mock('next/router', () => ({
   useRouter() {
     return {
